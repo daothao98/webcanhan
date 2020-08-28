@@ -1,0 +1,28 @@
+@import "style.css";
+
+nav.navbar.navbar-expand-sm.navbar-dark.bg {
+    background-color: gray;
+}
+h5.display-4.size1{
+    font-size: 40px;
+}
+a.btn.btn-secondary.fix{
+    background-color: white;
+    color: rgb(54, 54, 54);
+    border: 1px solid rgb(179, 178, 178);
+}
+a.btn.btn-secondary.fix:hover{
+    background-color: #e6e6e6;
+}
+
+.album h4{
+    font-weight: 700;
+}
+.album img{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid rgb(138, 138, 138);
+    padding: 5px;
+    margin: 10px 30px;
+}

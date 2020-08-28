@@ -1,0 +1,36 @@
+@import "style.css";
+body{ 
+    background: url("../images/bgindex.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(19, 19, 19, 0.4);
+}
+
+div.middle{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+div.middle h1 {
+    color: rgb(226, 226, 226);
+}
+div.middle p {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(219, 218, 218);
+}
+i.fas.fa-heart {
+    color: #8c0000;
+}
+

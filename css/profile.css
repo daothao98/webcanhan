@@ -1,0 +1,60 @@
+@import "style.css";
+
+body {
+    color: black;
+}
+nav.navbar.navbar-expand-sm.navbar-dark.bg {
+    background-color: gray;
+}
+/* CSS boxalert */
+.boxalert {
+    margin: 30px 0px 40px 0px;
+}
+.col-sm-5.mx-auto.banner {
+    border: 2px solid black;    text-align: center;
+    padding: 10px 0px;
+    line-height: 1;
+}
+
+/* CSS section1 */
+img.imgcard{
+    width: 100%;
+    border: 1px solid rgb(138, 138, 138);
+    padding: 5px;
+    box-shadow: 3px 3px 3px lightgray;
+}
+
+.col-sm-7.mb-3.ttcn h3.titlettcn{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.col-sm-7.mb-3.ttcn div.infor{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.col-sm-7.mb-3.ttcn div.infor ul.listttcn {
+    list-style-type: none;
+}
+.col-sm-7.mb-3.ttcn div.infor ul.listttcn li{
+    line-height: 2;
+}
+li.social a i {
+    font-size: 20px;
+    color: black;
+    margin: 0px 5px;
+}
+li.social a i.fab.fa-facebook:hover {
+    font-size: 22px;
+    color: #0A82ED;
+}
+li.social a i.fab.fa-instagram:hover {
+    font-size: 22px;
+    background-image: linear-gradient(#B12488,#F1D1E3,#EC5532,#F76229,#FED278);
+}
+
+/* CSS section4 */
+.section4 img{
+    height: 300px;
+    object-fit: cover;
+}
+

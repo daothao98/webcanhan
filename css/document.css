@@ -1,0 +1,14 @@
+@import "style.css";
+
+nav.navbar.navbar-expand-sm.navbar-dark.bg {
+    background-color: gray;
+}
+
+.content.pt-4 .col-sm-4 img{
+    width: 30%;
+    height: 200px;
+    object-fit: contain;
+}
+.content.pt-4 .col-sm-4 h4{
+    font-size: 25px;
+}
